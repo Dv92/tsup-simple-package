@@ -1,0 +1,24 @@
+{
+  "name": "tsup-simple-package",
+  "version": "1.0.0",
+  "description": "Simple package demostration for a talk about tsup",
+  "main": "dist/index.js",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "TypeScript",
+    "esbuild"
+  ],
+  "author": "Marco Corradetti",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}

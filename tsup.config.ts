@@ -1,0 +1,12 @@
+import type { Options } from "tsup";
+
+const config: Options = {
+  entry: ["src/index.ts"],
+  format: ["cjs", "esm"],
+  sourcemap: true,
+  platform: "node",
+  target: "node20",
+  dts: true,
+};
+
+export default config;
