@@ -9,15 +9,19 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup"
+    "tsup:build": "tsup",
+    "tsup:watch": "tsup --watch",
+    "microbundle:build": "microbundle",
+    "microbundle:watch": "microbundle watch"
   },
   "keywords": [
     "TypeScript",
-    "esbuild"
+    "ESBuild"
   ],
   "author": "Marco Corradetti",
   "license": "MIT",
   "devDependencies": {
+    "microbundle": "^0.15.1",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
