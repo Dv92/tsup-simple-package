@@ -12,7 +12,8 @@
     "tsup:build": "tsup",
     "tsup:watch": "tsup --watch",
     "microbundle:build": "microbundle",
-    "microbundle:watch": "microbundle watch"
+    "microbundle:watch": "microbundle watch",
+    "benchmark": "node benchmark.js"
   },
   "keywords": [
     "TypeScript",
